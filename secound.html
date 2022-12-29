@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./secound.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="./secound_buble.js"></script>
+    <script type="module" src="./second_leter.js"></script>
+  </head>
+
+  <body id="body">
+    <form onsubmit="return false;">
+      <input type="text" id="intext" onkeypress="onenterkey(event)">
+    </form>
+
+    <div id ="all">
+      <h1>총 점수 : </h1>
+      <h1 id = "score">0</h1>
+    </div>
+    <div id = "now">
+      <h1>현재 점수 : </h1>
+      <h1 id = "nowscore">0</h1>
+    </div>
+
+    <!--
+      <button onclick="addbox(0)">push</button>
+      <button style="left: 80px;" onclick="addbox(2)">push</button>
+      <button style="left: 200px;" onclick="addbox(3)">push</button>
+    -->
+
+  </body>
+  </html>
